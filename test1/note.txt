@@ -1,0 +1,1541 @@
+t1 --> global and local variable
+t2 --> MAX_VALUE AND MIN_VALUE of datatype
+t3 --> Typecasting first type primitive typecasting in that Widening and Narrowing
+t4 --> ASCII code to char & char to ASCII code
+t5 --> Arithmetic operator and All Primitive Data Types + String Concatenation
+t6 --> Count Number Of The Digits.
+t7 --> Sum of Digit
+t8 --> xylem or phloem number
+t9 --> Palindrome number or Not
+t10 --> do {.....}while(condition);{.....} and Switch Statement
+t11 --> Random rumber guess
+t12 --> Power using For loop
+t13 --> Binary to Decimal value
+t14 --> Decimal to Binary value
+t15 --> Tables using for loop
+t16 --> * using for loop
+t17 --> Fibonancci Series
+t18 --> Factorial Number
+t19 --> Factors of a Number
+t20 --> Prime Number or Not
+t21 --> Neon Number
+t22 --> Armstrong Number
+t23 --> Happy Number
+t24 --> Spy Number	
+t25 --> leap year
+t26 --> Odd or Even
+t27 --> Operators
+t28 --> Reverse Digits
+t29 --> reverse Digit and Array
+t30 --> SunriseViewBuildings
+t31 --> Palindrome in Array
+t32 --> Left Shift Program
+t33 --> Right Shift Program
+t34 --> Sort Binary Array
+t35 --> Reverse CharArray With CaseSwap
+t36 --> RemoveDuplicate
+t37 --> find Unique value
+t38 --> Fill Missing Values
+t39 --> Find Missing Values
+t40 --> Water Filling Container
+t41 --> Buy and Sell Stock
+t42 --> ContainerWithMaxWidth
+t43 --> ProductofArrayItself
+t44 --> PairArray
+t45 --> SubArray
+t46 --> ASCII value
+t47 --> Bubble Sort
+t48 --> Selection Sort
+t49 --> Insertion sort
+t50 --> Counting Sort
+t51 --> Frequency Counting
+t52 --> Multidimensional array
+t53 --> Multidimensional array Prime Number
+t54 --> Multidimensional array Palindrome
+t55 --> Multidimensional array Sum of Digits
+t56 --> Addition of two Matrix
+t57 --> Multidimensional array leftshift 
+t58 --> Multidimensional array duplicate value 
+t59 --> Multidimensional array Spiral printing
+t60 --> String Program
+t61 --> String Palindrome
+t62 --> Cyclic Prime
+t63 --> Reverse a String
+t64 --> count of String
+t65 --> Dynamic array creation
+t66 --> Linear Search
+t67 --> Binary Search
+t68 --> Merge Sort
+t69 --> Anagram
+t70 --> Panagram
+t71 --> Static and not Static and member reference 
+t72 --> Create an Object
+t73, t74 --> student class t73 and Main class t74
+t75, t76 --> Encapsulation eg 1
+t77, t78 --> Encapsulation eg 2
+t79, t80 --> Encapsulation make constructor private and boolean in getter method
+t81, t82 --> singleton class - class which allows only one object creation.
+t83, t84 --> java bean, serializable encapsulation
+t85, t86 --> has a relationship composition 
+t87, t88 --> has a relationship Aggregation 
+t89, t90 --> has a relationship Aggregation Example 2
+t91, t92 --> Single level inheritance
+t93, t94 --> Multi level inheritance
+t95, t96 --> Hierarchial inheritance
+t97, t98 --> Multiple inheritance
+t99, t100 --> Hybrid inheritance
+t101, t102 --> Upcasting and Downcasting
+t103, t104 --> Polymorphism Method Overloading
+t105, t106 --> Polymorphism Constructor Overloading
+t107, t108 --> Polymorphism variable shadowing
+t109, t110 --> Polymorphism method shadowing/method hiding
+t111, t112 --> Polymorphism method overriding
+t113, t114 --> final keyword Example
+t115, t116 --> abstraction example
+t117, t118 --> interface example
+t119 --> abstract and interface 
+t120 --> interface example
+t121 --> regular interface 
+t122 --> functional interface method with argument and Lamda expression 
+t123 --> functional interface method without argument and Lamda expression 
+t124 --> marker interface 
+t125 --> static method reference
+t126 --> instance method reference(object) / non-static method reference
+t127 --> instance method reference(class)
+t128 --> constructor method reference
+t129 --> this keyword
+t130 --> super keyword
+t131 -->  Varargs
+t132 --> Anonymous class
+t133 --> object class toString(), equals(), hashcode() , getClass()
+t134 --> object class finalize()
+t135 --> object class clone()
+t136 -->
+
+Operators
+	It is a predefined symbol which is used to perform some operation
+	operators will perform operations with operands
+	we can classfiy operator into three types based on the number of operand that it is accepting
+		uniary 
+		binary
+		ternary
+
+Arithmetic Operators:
+Used for basic mathematical calculations.
++ (Addition)
+- (Subtraction)
+* (Multiplication)
+/ (Division)
+% (Modulo - remainder after division)
+
+Unary Operators:
+Operate on a single operand.
++ (Unary plus)
+- (Unary minus)
+++ (Increment - increments value by 1)
+-- (Decrement - decrements value by 1)
+! (Logical NOT - inverts a boolean value)
+
+Assignment Operators:
+Used to assign a value to a variable.
+= (Simple assignment)
++=, -=, *=, /=, %= (Compound assignment operators)
+
+Relational (Comparison) Operators:
+Used to compare two values and return a boolean result.
+== (Equal to)
+!= (Not equal to)
+> (Greater than)
+< (Less than)
+>= (Greater than or equal to)
+<= (Less than or equal to)
+
+Logical Operators:
+Used to combine or modify boolean expressions.
+&& (Logical AND)
+|| (Logical OR)
+! (Logical NOT)
+
+Bitwise Operators:
+Perform operations on individual bits of integer types.
+& (Bitwise AND)
+| (Bitwise OR)
+^ (Bitwise XOR)
+~ (Bitwise Complement)
+
+Shift Operators:
+Used to shift the bits of a number.
+<< (Left shift)
+>> (Signed right shift)
+>>> (Unsigned right shift)
+
+Ternary (Conditional) Operator:
+A shorthand for an if-else statement.
+condition ? expression1 : expression2
+
+instanceof Operator:
+Used to check if an object is an instance of a particular class or interface.
+---------------------------------------------------------------------------------------------------------------------------------
+
+Typecasting
+	The process of converting one data type into another data type 
+	
+Types
+	Non-Primitive - 
+		The process of converting one non primitive datatype into another non primitive datatype. 
+		We can achieve non primitive typecasting only if is-a-relationship exist ot common child relationship
+			Upcasting - 
+				The process of converting child objet into parent. 
+				Upcasting is compile time success or we can say implicitly possible.
+				eg
+					a<-b<-c<-d<-e
+					d ref1 = new e();
+					c ref3 = new d();
+					
+				
+		Downcasting -
+			The process of converting parent object to child object.
+			We go for downcasting to overcome the disadvantage of upcasting.
+			eg
+				A<-B<-C<-D,E,F
+				
+				C ref1 = new F();
+					F can access A,B,C,F
+					C can only access A,B,C to access F we need to downcasting so 
+						F ref2 = (F)ref1;
+					now C can access F also.
+	
+	Primitive - The process of converting one primitive datatype into another primitive datatype.
+		Widening - The process of converting lower range primitive data type into higher range primitive datatype.
+		Narrowing - The process of converting higher range primitive data type into lower range primitive datatype. 
+		
+	Instanceof Operator
+		It is a binary ooperator
+		The return type of instance operator is boolean
+		We can use instance of operator to thec in the given regerence instane member is present or not
+	sytax
+		ref instanceof type
+---------------------------------------------------------------------------------------------------------------------------------
+Methods: 
+	It is a block of code which is used to perform the task.
+	Every Method will be having their own name and there own taks to perform
+Syntax:
+    [Access Mofdifier] [Modifier] returntype MethodName([formalArguments])
+    {
+    	[task]
+    }	
+    
+	Access Modifier, Modifier and formal argument are optional.
+	
+Types of Method:
+	No Argument Method
+	Parameterizer Method
+	
+	we cannot create a method inside another method.
+	
+	A combination of method name along with formal argument is called Method Signature.
+	
+	Access Modifier - It decide the visibility of the members. 
+	Types: Public, Protected, Private, Default.
+	
+	Modifier - It decides the characteristics. 
+	Types: Static, final, abstract, transient, native, synchronized.
+	
+	ReturnType - Returntype of the method will specify what data programmer will get once method execution is completed.
+	Types: void, primitive or non-primitive datatype. Every method will have only one returntype.
+	
+	Return Keyword - It helps for the termination of method execution.
+	
+	
+	For static method no need to create object to call the method
+	for non-static method need to crate object to call the method
+	
+---------------------------------------------------------------------------------------------------------------------------------
+	
+Java is a high level object oriented, class based and platform independent programming language.
+Key Features: Simple, object-oriented, secure, platform independent, robust, multithreaded, portable, distributed.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Loop:
+	A loop run the same block of code multiple times until a condition is false.
+	
+	for loop:
+		used when you know how many times to run the loop.
+	syntax:
+		for(intialization; condition; update){
+			//code to repeat
+		}
+		
+	while loop:
+		used when you don't know how many times but want to repeat as long as a condition is true.
+	syntax:
+		while(condition){
+			//code to repeat
+		}	
+	
+	do-while loop:
+		used when run at least once even if the condition is false.
+	syntax:
+		do{
+			//code to repeat
+		}
+		while(condition);
+		
+---------------------------------------------------------------------------------------------------------------------------------
+
+Array:
+	It is the collection of elements of the same type stored in a fixed size container.
+	Array is a continuous memory location which is logically divided into multiple parts to stroe multiple data.
+	Size of the array will be fixed and we annot modify the size during the execution of the program .
+	We can declare the size of an array during the declaration of an array.
+syntax
+	datatype []variable_name = new datatype[size];
+Array Initialization
+	Array_reference_var[index] = value;
+eg:
+	
+	arr[3]=8;
+index
+	It is an integer value which start from 0 and goes till (size-1).	
+Creating an array and initialization in one line:
+	datatype []variable_name ={value1, value2, value3,.....};	
+
+Declaration and creating a array:
+	int[] numbers = new int[5];              // Declaration with size
+	int[] marks = {90, 80, 85, 70, 95};      // Declaration with values
+	
+2D Array:
+	int[][] num = new int[2][3];
+	2->rows
+	3->columns
+	
+	num[0][0] - 1
+	num[0][1] - 2
+	num[0][2] - 3
+	num[1][0] - 4
+	num[1][1] - 5
+	num[1][2] - 6	
+	
+	for(int i=0; i<num.length; i++){
+		for(int j=0; j<num[i].length; j++){
+			System.out.print(num[i][j]+ " ");
+		}System.out.println()
+	}
+	
+---------------------------------------------------------------------------------------------------------------------------------
+
+Scanner Methods by Datatype:
+
+Datatype		Methods
+
+int				nextInt()
+long			nextLong()
+float			nextFloat()
+double			nextDouble()
+byte			nextByte()
+short			nextShort()
+boolean			nextBoolean()
+char			next().charAt(0)
+String(word)	next()	-> Reads up single word. Eg: Aathi
+String(line)	nextLine()    ->Read entire line. Eg: My name is Aathi.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Recursion
+	A method calling itself 
+	During recursion there is a possibility of runtime error called as sstack overflow error.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Control Flow:
+	if, else if, else:
+		This statement helps you make decision in your program.
+	syntax:
+		if(condition 1){
+			//run if condition is true
+		}
+		else if(conditon 2){
+			//run if the previous was false 
+		}
+		.
+		.
+		.
+		else{
+			//run if none of above are true
+		}
+	
+	switch statement:
+		used when you want to compare one variable against multiple values.
+	syntax:
+		switch(variable){
+		case value1:{
+			//code;
+			break;
+		}
+		case value2:{
+			//code;
+			break;
+		}
+		.
+		.
+		.
+		default:
+			//code if no case match
+		}
+		
+	Break Statement:
+		 It is used to immediately exit a loop or switch.
+	syntax:
+		break;
+	eg:
+		for(int i=0; i<5; i++){
+			if(i==3){
+				break;
+			}System.out.println(i);
+		}	
+		
+	output:
+		1
+		2
+		3
+		
+	Continue Statement:
+		used to skip the current iteration and move to the next one.
+	syntax:
+		continue;
+	eg:
+		for(int i=0; i<5; i++){
+			if(i==3){
+				continue;
+			}System.out.println(i);
+		}
+		
+	output:
+		1
+		2
+		4
+		5
+		
+---------------------------------------------------------------------------------------------------------------------------------
+	
+Functions / Methods in Java:
+	A method in java is a block of code that performs a specific task. you can call it whenever needed helps avoid repeating code.
+syntax:
+	returnType MethodName(Parameter1, Parameter2,...)
+	{
+		return value;
+	}
+	
+Types:
+	1)void Method Without Parameter:
+	
+		public static void greet(){
+			System.out.println("Welcome");
+		}
+		
+	2)void Method With Parameter:
+	
+		public static void sum(int a, int b){
+			System.out.println(a+b);
+		}
+		
+	3)return Method Without Parameters
+	
+		public static int FixedNumber(){
+			return 100;
+		}
+			
+	4)return Method With Parameters:
+	
+		public static int Multiply(int a, int b){
+			return (a*b);
+		}
+			
+---------------------------------------------------------------------------------------------------------------------------------
+
+Object Oriented Programming In Java:
+
+Class and Objects:
+	class is a blueprint or template for creating object.
+	It defines properties (variable) & behaviors (methods).
+	object is a real world instance of a class.
+	
+
+Constructors:
+	It is a special block which is having Name Similar to class Name with no return type.
+	It is used to load all the Non Static member into object
+	We use constructor to load all the notn-static member into the class static area.
+	And also it helps to initialize the states of the object
+	It is used to initalize states
+	It is a special method that initializes objects when they are created. It has same name as the class and no return type.
+
+Note:
+	In all the constructor body first instruction is load instruction helps to load non static member.
+	If a programmer forgot to add constructor in the class compiler will add default no argument construtor at the time of compile time
+	
+	class car{                               class car{
+													car(){
+													 //load initializer
+						---->						 }
+	}											}
+	
+ Types:
+ 	Default Constructor - No Parameter
+ 	Parameterized Constructor - Tale argument
+ 	Constructor Overloading - Multiple Constructor in same class with different parameters.
+ 	
+ 	
+ eg:
+ 
+ Class Student{
+ 	String name;
+ 	int age;
+ 	
+ 	Student(){
+ 		name= "Aathi";
+ 		age=21;
+ 	}
+ 	Student(String name, int age){
+ 		this.name= name;
+ 		this.age= age;
+ 	}
+ 	
+ 	void display(){
+ 		System.out.println(name+"-"+age);
+ 	}
+ }
+ 
+ class Constructor{		
+ 	public static void main(String[] args){
+ 		Student s1 = new Student();
+ 	    s1.display();
+ 	    Student s2 = new Student("aathi siva ganesh", 21);
+ 	    s2.display();
+   }
+}
+ 	
+this  		
+	this() keyword used to refer to the current object instance . used to call another constructor from within the same class.
+	We cannot use this keyword inside the static block.
+	We can only use this keyword inside the non static block
+	We use tis keyword whenever we are in the state where local variable and object states are having same name. 
+	To differentiate the members we use this keyword.
+	
+---------------------------------------------------------------------------------------------------------------------------------
+ 		
+ 		
+Inheritance 
+	When a class called a subclass or child class inherits properties and behaviours from another class called as super class or parent class.
+	
+class Person{
+	String name;
+	int age;
+	void displaypersoninfo(){
+		System.out.println("Name:"+name);
+		System.out.println("Age:"+age)';
+	}
+}
+	
+class Student extend Person{
+	int rollno;
+	void displaystudentinfo(){
+		System.out.println("Rollno:"+rollno);
+	}
+}
+
+
+class inherit{
+
+public static void main(String[] args){
+	Student s = new Student();
+	s.name = "Aathi";
+	s.age = 21;
+	s.rollno = 1101;
+	
+	s.displaypersoninfo();
+	s.displaystudentinfo();
+	
+}
+}
+
+inheritance and constructor - use super to call the parent by adding constructor to both class and use super to call the parent constructor.
+
+class person{
+	String name;
+	int age;
+	person(String name, int age){
+		this.name=name;
+		this.age=age;
+	}
+	void displaypersoninfo(){
+		System.out.println("Name:"+name);
+		System.out.println("Age:"+age);
+	}
+}
+
+class student extend person{
+	int rollno;
+	student(String name, int age, int rollno){
+		Super(name, age);
+		this.rollno = rollno;
+	}
+	void displaystudentinfo(){
+		System.out.println("RollNo:"+rollno);
+	}
+}
+
+class super{
+public static void main(String[] args){
+	Student s = new Student("Aathi", 21, 1101);
+	s.displaypersoninfo();
+	s.displaystudentinfo();
+	
+	}
+}
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Polymorphism
+	Poly means many and morph means form so polymorphism means one thing behaving in may ways.
+Types
+	compile time(static - Same method name different parameter within same class) - Achieved by method overloading.
+		method overloading - A class having methods with the same name but different formal argument
+		constructor overloading - A class having constructor with same name but different formal argument.
+		variable shadowing - It is a super call and the subclass having variable with same name.
+		method shadowing/method hiding - The super class and the subclass having the same static method with same method with same signature.
+		
+	runtime (dynamic - Same method name , same parameters, inherited from parent class , happens between parent and child classes) - Achieved by method overridding.
+		method overriding - The process of replacing parent non static method body by the child non static method body. 
+			Rules:
+				Is-a-relationship is manditory
+				Access modifier of parent method and child method should be same or child method should have the access modifier with higher visibility
+				applicable only for non static method
+				parent method return type and child method return type should be same or child should have covarient return type
+				
+Method overloading:
+	Scope - Same class
+	Methodname - same
+	Parameter - Different( number or type/order)
+	return tupe - can be same or different
+
+class calc {
+	void add(int a, int b){
+		System.out.println("Sum(int):", +(a+b));
+	}
+	void add( double a, double b){
+		System.out.println("sum(double):", +(a+b));
+	}
+	void add(int a, int b, int c){
+		System.out.println("sum(3int):", +(a+b+c));
+	}
+}
+
+class polymorphismMethodOverloading{
+	public static void main(String[] args){
+		calc c = new calc();
+		c.add(10, 20);
+		c.add(20.3,2.3);
+		c.add(10, 20, 30);
+	}
+}
+
+Method overridding:
+	scope - parent child relationship
+	method name - same
+	parameter - same
+	use of @override - recommended
+	
+	It ocurs when a child class provides its own implementation of a method that is already defined in its parent class.
+	
+class Animal{
+	void makesound(){
+		System.out.println("Animal Sound");
+	}
+}
+class Dog extends Animal{
+	@override
+	void makesound(){
+		System.out.println("Dog Barkes");
+	}
+}
+class Cat extends Animal{
+	@override
+	void makesound(){
+		System.out.println("Cat Meow");
+	}
+}
+class polymorphismMethodOverrideing{
+	public static void main(String[] args){
+		Animal a;
+		a=new dog();
+		a.makesound();
+		a=new Cat();
+		a.makesound();
+}}
+
+
+output: Dog Barkes
+		Cat Meow
+
+super in overridding
+	 The child class overrides a metods but still want to reuse part of the parent method behaviour.
+	 
+	 super.methodname();
+	 super() - call parent class constructor.
+	 super.variable - Access parent variable.
+	 
+class Animal{
+	void makeSound(){
+		System.out.println("Anime sound");
+	}
+}
+class Dog extends Animal{
+	@override
+	void makesound(){
+		super.makesound();
+		System.out.println("Dog Barks");
+	}
+}
+
+class overriddingsuper{
+	public static void main(String[] args){
+		Dog d = new Dog();
+		d.makesound();
+	}
+}
+output:
+Animal sound
+Dog Barks
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Abstraction
+	 It means hiding internal implementation details and shoiwing only essential features to the user.
+	 
+	method
+		abstract class - a class that can have abstract methods and normal methods. we cannot create object form abstract class.
+						 we cannot prefix abstract for static method because they are not eligible for overriding. 
+						 final and abstract keyword cannto be used together
+						 private and abstract cannot be used together
+		
+		interface - actual abstract blue print of a class.
+					from interface we cannot inherit static function i.e., static method
+ 		
+service speifier
+	service specifier is one who is specify what help we can do for the end user
+	
+service provider
+	service provider is one who will full filll the specification done by the service specifier
+	
+end user
+	end user is on ewho is use the features
+		
+-----------------------------
+		
+Feature					Abstract Class											Interface
+
+Keyword					abstract class											interface
+
+Method types			Can have abstract + concrete methods					All methods are abstract (until Java 8)
+Constructors			Can have constructors									❌ No constructors
+Variables				Can have any type (instance, static, final)				All variables are public static final
+Access modifiers		Can be private, protected, etc.							Only public is allowed
+Multiple inheritance	❌ Only one abstract class can be extended				✅ Can implement multiple interfaces
+When to use				When classes are closely related (IS-A)					When unrelated classes need common functionality
+Fields (variables)		Can have instance fields								Only constants allowed (final static)
+
+
+Car and Truck share startEngine() and fuelType() – and may have common behavior → use Abstract class	
+Bird, Airplane, and Drone can all fly(), but are unrelated → use Interface	
+
+-----------------------------
+eg:
+
+abstract class Animal{
+	abstract void makesound();
+	
+	void sleep(){
+		System.out.println("Sleeping");
+	}
+}
+
+class Dog extends Animal{
+	@override
+	void makesound(){
+		System.out.println("Dog Barkes");
+	}
+}
+
+class abstract{
+	public static void main(String[] args){
+		Dog d = new Dog();
+		d.makesound();
+		d.sleep();
+	}
+}
+			
+output:
+Dog Barkes
+Sleeping
+-----------------------------
+Interface
+	An interface is a completely abstrat class that is used to group related methods with empty bodies. 
+	It degines what a class must do but not how it does it.
+	Achieve full abstraction
+	Support multiple inheritance( java allows a class to implement multiple interfaces)
+types
+	regular interface - A normal interface that can have any number of abstract methods.
+	functional interface - Interface with exactly one abstract method. Used with Lambda Expressions.
+	marker interface - Interface with no methods. Used to mark a class for special treatment (like tagging). example: Serializable, Cloneable, EventListner
+
+Lambda Expression
+	It is similar to method but without name
+	we use lamda expression only for functional interface
+syntax
+	int arg1, String arg2 -> (System.out.println("Two arguments: "+ arg1 + "and " + arg2);)
+	
+Method Reference
+	It is one of the feature of java 8
+	It means using a method without calling it directly
+	we can use method reference only for functional interface 
+	it is a better feature than the lamda expression
+
+types
+	Reference to a static method - syntax: ClassName::staticMethod
+	Reference to a instance method (object) - syntax: object::instanceMethod
+	Reference to a instance method (class) - syntax: ClassName::instanceMethod
+	Reference to a Constructor - syntax: ClassName::new
+	Reference to a non static method - syntax: ref::non-staticMethod
+
+Interface Animal{
+	void makesound();
+}
+class Dog implements Animal{
+	public void makesound(){
+		System.out.println("Dog Barkes");
+	}
+}
+class interface{
+	public static void main(String[] args){
+		Dog d = new Dog();
+		d.makesound();
+	}
+}
+
+output:
+Dog Barkes
+---------------------------------------------------------------------------------------------------------------------------------
+
+Encapsulation
+	It is the process of wrapping data (variable) and code(methods) together into a single unit typically a class and restricting direct access to some of the object components.
+	To protect data from unauthorized access.
+	Declare variable as private.
+	Provide ppublic get and set methods to access / update them
+	Data hiding -internal details are hidden from outside.
+	Controlled Access - decide who can read/write.
+	
+class Student{
+	private String name;
+	private int age;
+	
+	public String getName(){
+		return name;
+	}
+	public int getAge(){
+		return age;
+	}
+	public void setName(String newName){
+		name = newName;
+	}
+	public void setAge(int newAge){
+		if(new>0){
+			age=newAge;
+		}
+	}
+}
+
+public Class Main{
+	public static void main(String[] args){
+		Student S = new Student();
+		s.setName("Aathi");
+		s.setAge(21);
+		System.out.println(s.getName());
+		System.out.println(s.getAge());
+	}
+}
+output
+Aathi 
+21
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Accesss Modifiers and Packages in java:
+	Access Modifiers control the visibility of classes, variable, methods and construtors.
+	public>protected>default>private
+	
+modifier-----Same Class-----Same Package-----Sub Class-----Other Class
+
+public		 yes			yes				 yes		   yes
+
+protected	 yes			yes				 yes		   no			
+
+default      yes            yes              no            no
+
+private      yes            no               no            no
+
+public - visibility everywhere
+protected - within the package and the subclass of other package
+default - within the package
+private - only within the class
+
+public class example{
+	public int a=1; //visible everywhere
+	protected int b=2; //isible in same package + subclass
+	int c=3; //default visible in same package
+	private int d=4; //only within class
+public static void main (String[] args){
+	System.out.println(a);
+	System.out.println(b);
+	System.out.println(c);
+	System.out.println(d);
+}}
+
+output:
+1
+2
+3
+4
+
+Packages
+	A package is a namespace that organizes a set of related classes and interfaces. 
+
+creating a packages
+
+package mypackage;
+
+public class myclass{
+	public void display(){
+		System.out.println("inside my class in my packages");
+	}
+}
+		
+Type of packages:
+	Builtin packages - java.util, java.io, java.lang
+	User defined packages - you create your own like mypackage
+	
+static - used to create methods or variables that belong to the class not to any specific object.
+static variable - shared across all object.
+static method - can be called without object.
+static block - runs only once when class is loaded
+
+Static variable
+
+class Student{
+	int id;
+	String name;
+	static String collage = 'AMS';
+	
+	Student(int i, String n){
+		id=i;
+		name=n;
+	}
+	void display(){	
+		System.out.println(id+" "+name+" "+collage);
+	}
+}
+
+class main{
+	public static void main(String[] args){
+		Student s1 = new Student(1,"Aathi");
+		Student s2 = new Student(2,"Rakshan");
+		s1.display();
+		s2.display();
+	}
+}
+output
+1 Aathi AMS
+2 Rakshan AMS
+
+Static method
+
+class Demo{
+	static oid great(){
+		System.out.println("Hello from static method");
+	}
+}
+class main{
+	public static void main(String[] args){
+		Demo.great();//called without object creation
+	}
+}
+
+
+final Keyword - used to create constants, prevent method overriding or stop inheritance.
+
+final variable - cannot change it value
+final method - cannot be overridden in subclass
+final class - cannot be extended inherited.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Multi Dimensional Array - one array inside another array.
+
+create multidimension array in two ways
+	dynamic
+	static
+	
+syntax
+	
+declaration of multi dimensional array reference variable
+	datatype [][]variable;
+	
+declaration and initialization of multi dimension array reference variable
+	datatype [][] variable = new datatype[row size][column size];
+
+initialization of multi dimension array reference variable
+	variable = new datatype[row size][column size];
+	
+jagged Array - any multi dimensional array unequal row and column size 
+	double [][]a = new double[4][];
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+String:
+	String is a non-primitive datatype
+	Anything present inside double quote " " 
+	String class contains so many methods which we can use to perform operation with string.
+
+String Comparison (Literal vs New)  -->
+
+String s1 = "AATHI";
+String s2 = "AATHI";
+String s3 = new String("AATHI");
+String s4 = new String("AATHI");
+
+System.out.println(s1 == s2);  // ✅ true (same literal in String Pool)
+System.out.println(s1 == s3);  // ❌ false (new object in heap)
+System.out.println(s1.equals(s3)); // ✅ true (same content)
+System.out.println(s3 == s4);     // ❌ false (different memory)
+System.out.println(s3.equals(s4)); // ✅ true (same content)
+
+StringBuilder Comparison -->
+
+StringBuilder sb1 = new StringBuilder("AATHI");
+StringBuilder sb2 = new StringBuilder("AATHI");
+
+System.out.println(sb1 == sb2);  // ❌ false (different objects)
+❌  System.out.println(sb1.equals(sb2)); // ❌ false (StringBuilder doesn't override .equals)
+
+StringBuffer Comparison  -->
+
+StringBuffer sbf1 = new StringBuffer("AATHI");
+StringBuffer sbf2 = new StringBuffer("AATHI");
+
+System.out.println(sbf1 == sbf2);  // ❌ false (different objects)
+❌  System.out.println(sbf1.equals(sbf2)); // ❌ false (StringBuffer doesn't override .equals)
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------
+JAVA MEMBERS REFERENCE – VARIABLES, METHODS, BLOCKS
+-------------------------------------------------------
+
+🔸 VARIABLES:
+1. Instance Variable   → Belongs to object (non-static)
+2. Static Variable     → Belongs to class (shared)
+3. Local Variable      → Declared in methods/blocks
+4. Final Variable      → Cannot be reassigned after set
+
+🔸 METHODS:
+1. Instance Method     → Needs object to call
+2. Static Method       → Call using class name
+3. Constructor         → Same name as class, runs on object creation
+4. Main Method         → Entry point: public static void main(String[] args)
+
+🔸 INITIALIZERS:
+1. Static Block        → Runs once when class loads
+2. Instance Block      → Runs before constructor, every object creation
+
+ORDER OF EXECUTION:
+→ Static Block → Instance Block → Constructor → Methods
+
+Example Use:
+- Static block: DB connection, constants
+- Instance block: Common logic for all constructors
+- Final variable: PI = 3.14
+
+
+---------------------------------------
+STATIC vs NON-STATIC in Java
+---------------------------------------
+
+🔹 STATIC:
+- Belongs to the class (not to object)
+- Shared by all objects
+- Can be accessed using class name
+- Example: static int count; static void show();
+
+🔸 NON-STATIC (Instance Members):
+- Belongs to individual object
+- Unique for each object
+- Requires object to access
+- Example: String name; int age; void print();
+
+Rules:
+- Static methods can access only static members directly
+- Non-static methods can access both static and non-static members
+
+Use Cases:
+- Static: Constants, counters, utility methods
+- Non-static: Personal data, behavior per object
+
+
+ CLASS LOADING & INITIALIZATION FLOW:
+
+1️⃣ Class is loaded by ClassLoader (JVM)
+2️⃣ Static variables & static blocks are initialized (top to bottom)
+3️⃣ Main method is called (entry point)
+4️⃣ When object is created:
+    - Instance variables are initialized
+    - Instance initializer block runs
+    - Constructor runs
+
+----------------------------------------
+CLASS LOADING & OBJECT CREATION FLOW
+----------------------------------------
+
+1. Class loads → Static block runs once
+2. Object created → Instance block → Constructor
+3. Instance methods/fields work on objects
+4. Static methods/fields belong to class
+
+Static members: shared across all objects
+Instance members: separate for each object
+
+
+Object:
+	Every object will be having two properties that is 
+		State/Attributes/DataMember - Should be represented by non static variable. 
+		Behaviours/Function/Features - Should be represented by non static methods.
+		
+eg:
+	class Book
+	id, author, title, price  -> States
+	read(), write() -> Behaviour
+				
+java.lang.Object:
+- Superclass of all Java classes
+- Common methods: toString(), equals(), hashCode(), getClass(), finalize()
+- All custom classes inherit Object by default
+
+----------------------------------------
+java.lang.Object – Superclass
+----------------------------------------
+
+All classes in Java implicitly extend Object.
+Common methods inherited:
+- toString()      → String representation
+- equals(Object)  → Compares content
+- hashCode()      → Used in collections
+- getClass()      → Returns runtime class
+- finalize()      → Called before garbage collection (deprecated)
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Encapsulation
+	Encapsulation is the process of binding states (data) (variables) and behavior (code) (methods) together into a single unit, and restricting direct access to some of the object's components.
+
+Encapsulation Rules:
+	Declare variables as private
+	Provide public getter and setter methods to access/update them
+	Use a class to wrap everything
+
+Main Goals:
+	Protect data from unauthorized access
+	Allow controlled access using getters/setters	
+	
+====================================
+Java Setters and Getters (Encapsulation)
+====================================
+
+WHY USE?
+- Protect variables by making them `private`
+- Control how values are read or written
+- Validate input before updating fields
+
+------------------------------------
+🔹 SYNTAX:
+------------------------------------
+
+class Student {
+    private String name;     // private = cannot access directly
+    private int age;
+
+    // ✅ GETTER → to read value
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    // ✅ SETTER → to update value
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        // Optional: Validation
+        if(age > 0)
+            this.age = age;
+    }
+}
+
+------------------------------------
+🔸 USAGE:
+------------------------------------
+
+Student s = new Student();
+
+s.setName("Aathi");
+s.setAge(20);
+
+System.out.println(s.getName());  // ➝ Aathi
+System.out.println(s.getAge());   // ➝ 20
+
+------------------------------------
+✅ ADVANTAGES:
+------------------------------------
+1. Hide internal data (Encapsulation)
+2. Add validation logic in setters
+3. Maintain clean API even if internal changes happen later
+
+Example:
+You may later store name in UPPERCASE, but user can still use `getName()` normally.
+
+/*
+============================================
+CHARACTERISTICS OF GETTERS AND SETTERS
+============================================
+
+🔸 GETTER METHOD:
+-----------------------
+1. Used to "get" or read the value of a private field
+2. Public in access
+3. Has no parameters
+4. Returns the data type of the field
+5. Naming follows: getFieldName()
+
+✅ Example:
+public String getName() {
+    return name;
+}
+
+🔸 SETTER METHOD:
+-----------------------
+1. Used to "set" or update the value of a private field
+2. Public in access
+3. Has one parameter (same type as the field)
+4. Return type is `void`
+5. Naming follows: setFieldName()
+
+Example:
+public void setName(String name) {
+    this.name = name;
+}
+
+🔹 Encapsulation Use:
+-----------------------
+- Fields are made private
+- Setters and getters expose controlled access to them
+- Allows adding validation logic in setters
+
+Example Validation:
+public void setAge(int age) {
+    if(age > 0)
+        this.age = age;
+    else
+        System.out.println("Invalid age!");
+}
+
+Key Benefits:
+-----------------------
+✔ Encapsulation (data hiding)
+✔ Control access to internal data
+✔ Make classes easier to maintain and flexible
+✔ Safer modification (you control how data is changed)
+
+
+=====================================================
+☑️ SETTER AND GETTER FOR BOOLEAN VARIABLES IN JAVA
+=====================================================
+
+🔸 For boolean fields:
+- Getter method uses `is` instead of `get`
+- Follows naming convention: isFieldName()
+
+🔸 Example:
+- Field: private boolean active;
+- Getter: public boolean isActive()
+- Setter: public void setActive(boolean active)
+
+-------------------------------------------------
+
+Singleton Pattern in Java
+	Ensures only one object is created for the class.
+	Used in logging, config managers, database connections, etc.
+
+Java bean class (or) pojo class
+	A Java Bean is a simple Java class that follows certain rules, mainly used for encapsulation, data transfer, and framework compatibility (like Spring, JSP, etc.).
+
+Rules for a Java Bean Class:
+	Must be public
+	Must have a no-argument constructor
+	All fields (variables) must be private
+	Provide public getters and setters for all fields
+	Should be serializable (optional but recommended in some cases)
+	
+Serialization is the process of converting a Java object into a byte stream — for storing in a file, database, sending over network, etc.
+
+Deserialization is the reverse — converting the byte stream back into a Java object.
+	
+---------------------------------------------------------------------------------------------------------------------------------
+
+Relationship
+	The onnection between the object is called as relationship.
+
+type of relationship
+	Has-a-relationship
+	is-a-relationship
+	
+-----------------------------
+
+Has-a-relationship
+	Dependency between the objet
+	one class contains a reference to another class
+	
+type
+	Composition
+	Aggregation
+	
+composition:(Strong Has-A)
+	The dependency between the object is in such a way that one object cannot exist without another object.
+	we can achieve composition by using the technique called as early instantiation
+	Early instantiation means is the process where when ever we creating a object it will also create dependency objetion.
+	
+eg:
+
+class Heart {
+    void pump() {
+        System.out.println("Pumping blood");
+    }
+}
+
+class Human {
+    private Heart heart = new Heart();  // Composition – Human has-a Heart
+
+    void live() {
+        heart.pump();
+        System.out.println("Human is alive");
+    }
+}
+
+
+Aggregation:(Weak Has-A)
+	The dependency between the object is in such a way that one object can exist with another object.
+	We can achieve aggregatiion by using the technique called as lazy instantiation.
+	Lazy instantiation means initializing the dependent object through the mehtod called as lazy instantiation
+	
+eg:
+
+class Book {
+    String title;
+    Book(String title) {
+        this.title = title;
+    }
+}
+
+class Library {
+    Book book;  // Library has-a Book
+
+    Library(Book book) {
+        this.book = book;
+    }
+
+    void showBook() {
+        System.out.println("Library has: " + book.title);
+    }
+}
+
+-----------------------------
+
+Is a relationship
+	A connection between the object which is similar to parent and child.
+	
+Inheritance
+	The proess of occuring states and behavior of one object into another object.	
+	In java we can achieve inheritance bu using special keyword by using extends and implements
+	
+Types of Inheritance
+	Single level inheritance - inheritance of only one level
+	Multi level inheritance - Inheritance of more than one level
+	hieratchical inheritance - If a parent has more than one child at the same level 
+	Multiple Inheritance - It is  a subclass (child) has more then one superclass (parent). 
+	Hybrid inheritane - the combination of multiple inheritance and hierarchical inheritance 
+	
+Multiple inheritance has a problem known as diamond problem 
+
+note 
+	when both templates are same then extends 
+	eg
+		class A
+		class B extends A
+		
+	when both templates are different then we use implements
+	eg
+		interface A
+		class B implements A    
+					and we cannot use like 
+									class A 
+							    	interface B implements A
+										   			 it is wrong 
+										   		
+extends
+	It is a keyword which is used to achieve inheritance or is a relationship
+	extends keyword we can use when both the template parent and child is same
+	
+implements
+	It is a keyword which is used to achieve inheritance or is a relationship
+	implements keyword we can use when both the templates parent and child are different
+	we cannot inherit a class into a interface
+
+super call
+	we use super call statement to call the constructor of parent class
+	super class statement helps to load the parent non static members inside the child object	
+eg
+	class A{											class A{
+		A(){												A(){
+		 //l.i					At compile time					//l.i
+		}                          -------> 		        }
+	}													}
+	class B extend A{									class B extends A{
+		B(){												B(){			
+		 //l.i												 	super()
+		}														//l.i
+	}														}
+														}	
+---------------------------------------------------------------------------------------------------------------------------------
+	
+final
+	It is a keyword as well as modifier
+	final represent constant which mwan once the value was designed we cnnot change.
+	in java we prefix final for class variable and methods
+
+final method
+	Any method prefix with final
+	we can inherit final method and you can use the final method
+	we cannot override final method
+	
+final global variable
+	any global variable prefixed with final is called final variable
+	once value assigned fro the final variable we cannot change
+	we should mention the final variable in uper case
+
+final local vaiable
+	any local vaiable prefixed with final is called as final local variable
+	final local vaiable can be declared because the visibility is not for all function
+	once value assigned for the final local variable we cannot change.
+	
+final class	
+	any class which is prefix with final modifier 
+	we can have final class but we cannot inherit final class
+	
+---------------------------------------------------------------------------------------------------------------------------------
+
+Varargs
+	Only one varargs parameter is allowed in a method.
+	It must be the last parameter in the method signature.
+
+syntax
+	returnType methodName(type... varName) { }
+
+The ... (three dots) tells Java that the method accepts 0 or more arguments of that type.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Anonymous Class:
+	An anonymous class is a class without a name, declared and instantiated in a single statement.
+	It is also override the abstract method present inside the class and interface.
+
+Name						Type				Purpose					Anonymous Class Usage?
+Runnable				Interface	Run code in a thread						✅ Yes
+Callable				Interface	Like Runnable but returns result			✅ Yes
+Comparator				Interface	Used to sort objects						✅ Yes
+ActionListener			Interface	Used in GUI for button clicks etc.			✅ Yes
+Thread					Class		Controls and starts threads					✅ Yes (can be extended)
+
+syntax
+	InterfaceOrClass obj = new InterfaceOrClass() {
+    // Override methods here
+	};
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+object class
+	Object is the root class of all Java classes.
+	Every class in Java implicitly extends Object if no other superclass is specified.
+	It contain eleven non static method.
+	Object class is the super most class for all the classes in java
+	When programmer forget to add extends keyword for any class compiler will add extends object.
+	
+syntax
+	object ref = new class_name();
+
+Method								Purpose
+toString()						Returns string representation of object
+equals(Object o)				Compares if two objects are equal (by default compares memory)
+hashCode()						Returns hash code (used in collections like HashMap)
+getClass()						Returns runtime class info
+clone()							Creates a copy of the object (if Cloneable)
+finalize()						Called by GC before object is destroyed (rarely used)
+wait(), notify(), notifyAll()	For thread communication (used in multithreading)
+
+public String toString()
+	Returns a string representation of the object. Default: ClassName@HexHashCode.
+	
+public boolean equals(Object obj)
+	Checks whether two objects are logically equal.
+	
+public int hashCode()
+	Used in hashing-based collections like HashMap, HashSet. Returns a hash code value for the object.
+	
+public final Class<?> getClass()
+	Returns runtime class information of the object.
+	
+protected Object clone() throws CloneNotSupportedException
+	Creates a copy of the object. The class must implement Cloneable.
+	It is a marker interface and the implementation of clone method in object class is done by using other programming language. because native keyword is there
+	
+public final void wait() throws InterruptedException
+public final void wait(long timeout) throws InterruptedException
+public final void wait(long timeout, int nanos) throws InterruptedException
+public final void notify()
+public final void notifyAll()
+	Used in multithreading for synchronization.
+
+protected void finalize() throws Throwable	 
+	It is used to perform clean up process. 	
+	Finaluzed method helps to remove th eunused objects which is not having reference.
+	In order to start Garbage collection process we need to call "System.gc()" which initially clall finalize method.
+	Obly those object colleted by garbage collector which is created with the help of new keyword.
+	
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+
